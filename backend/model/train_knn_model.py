@@ -16,9 +16,9 @@ import faiss
 IMG_SIZE = 96
 
 # Paths to datasets and model output
-safe_path = r"C:\Users\shree\OneDrive\Desktop\projects\botrush hackactivate\UnderfittedLegends\dataset\Safe"
-unsafe_path = r"C:\Users\shree\OneDrive\Desktop\projects\botrush hackactivate\UnderfittedLegends\dataset\Unsafe"
-model_output_path = r"C:\Users\shree\OneDrive\Desktop\projects\botrush hackactivate\UnderfittedLegends\models\knn_model.pkl"
+safe_path = r"C:\Users\shree\OneDrive\Desktop\projects\botrush\hackactivate_botrush_underfitted_legends\dataset\Safe"
+unsafe_path = r"C:\Users\shree\OneDrive\Desktop\projects\botrush\hackactivate_botrush_underfitted_legends\dataset\Unsafe"
+model_output_path = r"C:\Users\shree\OneDrive\Desktop\projects\botrush\hackactivate_botrush_underfitted_legends\models\knn_model.pkl"
 
 # === Feature Extractor Setup ===
 # Load MobileNetV2 model pre-trained on ImageNet, remove the top layer, use global average pooling
