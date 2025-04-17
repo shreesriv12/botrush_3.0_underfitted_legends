@@ -1,5 +1,5 @@
 venv/
-dataset
+dataset/
 backend/venv/
 backend/model/fiass_index.fiass_index
 backend/model/labels.npy
